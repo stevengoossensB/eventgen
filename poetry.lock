@@ -451,14 +451,17 @@ dotenv = ["python-dotenv"]
 
 [[package]]
 name = "httplib2"
-version = "0.17.4"
+version = "0.19.0"
 description = "A comprehensive HTTP client library."
 optional = false
 python-versions = "*"
 files = [
-    {file = "httplib2-0.17.4-py3-none-any.whl", hash = "sha256:743cff16beadd128511e786474740264aa805fba106d6fc90e3586829ad0298b"},
-    {file = "httplib2-0.17.4.tar.gz", hash = "sha256:1e9340ecf0187a621bdcfb407c32e04e8e09fc6ab28b050efa38f20eae0e975f"},
+    {file = "httplib2-0.19.0-py3-none-any.whl", hash = "sha256:749c32603f9bf16c1277f59531d502e8f1c2ca19901ae653b49c4ed698f0820e"},
+    {file = "httplib2-0.19.0.tar.gz", hash = "sha256:e0d428dad43c72dbce7d163b7753ffc7a39c097e6788ef10f4198db69b92f08e"},
 ]
+
+[package.dependencies]
+pyparsing = ">=2.4.2,<3"
 
 [[package]]
 name = "idna"
@@ -1359,4 +1362,4 @@ testing = ["func-timeout", "jaraco.itertools"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "3292d144a6b4b6a2c8bc714012c3d213e49465955d7ab17d50ae92cf1da5e58f"
+content-hash = "67e628451466241f2acdcd822b1f3f724682416796e069e2dd96585f8b27210e"
