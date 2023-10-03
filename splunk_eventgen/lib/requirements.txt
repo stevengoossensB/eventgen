@@ -1,5 +1,5 @@
 ujson==5.4.0
 jinja2==2.11.3
 requests-futures==1.0.0
-urllib3==1.26.5
+urllib3==1.26.17
 six==1.15.0
